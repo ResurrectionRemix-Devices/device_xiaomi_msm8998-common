@@ -27,6 +27,8 @@
 
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
+# Init from Xiaomi Custom repo
+import /vendor/etc/init/hw/init.xiaomi_custom.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
