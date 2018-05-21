@@ -59,7 +59,7 @@ on post-fs-data
     # Create directory for apps access via QTEEConnector
     mkdir /data/vendor/qtee 0770 system system
 
-    # Create folder for mm-qcamera-daemon
+    # Create folder for camera hal
     mkdir /data/misc/camera 0770 camera camera
     setprop persist.camera.stats.test 5
 
