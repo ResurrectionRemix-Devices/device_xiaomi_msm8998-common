@@ -120,6 +120,9 @@ on init
     write /sys/module/cpu_boost/parameters/input_boost_freq "0:1324800"
     write /sys/module/cpu_boost/parameters/input_boost_ms 100
 
+    # Disable underclock
+    write /sys/module/cpufreq/parameters/disable_underclock Y
+
     # Disable retention
     write /sys/module/lpm_levels/system/pwr/cpu0/ret/idle_enabled N
     write /sys/module/lpm_levels/system/pwr/cpu1/ret/idle_enabled N
