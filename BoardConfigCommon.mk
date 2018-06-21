@@ -170,9 +170,6 @@ TARGET_EXFAT_DRIVER := sdfat
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 TARGET_USES_INTERACTION_BOOST := true
 
-# Properties
-TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
-
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 
