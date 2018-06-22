@@ -89,7 +89,6 @@ on init
     write /sys/devices/system/cpu/cpu0/cpufreq/interactive/above_hispeed_delay 19000
     write /sys/devices/system/cpu/cpu0/cpufreq/interactive/go_hispeed_load 101
     write /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_rate 20000
-    write /sys/devices/system/cpu/cpu0/cpufreq/interactive/timer_slack 10000
     write /sys/devices/system/cpu/cpu0/cpufreq/interactive/io_is_busy 1
     write /sys/devices/system/cpu/cpu0/cpufreq/interactive/target_loads "83 1401600:95"
     write /sys/devices/system/cpu/cpu0/cpufreq/interactive/min_sample_time 39000
@@ -104,7 +103,6 @@ on init
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/above_hispeed_delay 19000
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/go_hispeed_load 101
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate 20000
-    write /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_slack 10000
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/io_is_busy 1
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads "83 1420800:95"
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time 19000
