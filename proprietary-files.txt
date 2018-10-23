@@ -422,7 +422,7 @@ vendor/lib/libvqzip.so|c1c4f35456ff34b4baba373f18ed034a7d1e2721
 -vendor/lib64/libgpustats.so|429e9048389f9062702649e083ec53386966f93f
 
 # NFC firmware
-vendor/lib/libpn553_fw.so|d032117e6645395327a5acd236bfd1bec56569c0
+vendor/firmware/libpn553_fw.so:vendor/lib/libpn553_fw.so
 
 # Perf
 vendor/lib/libqti-perfd-client.so
