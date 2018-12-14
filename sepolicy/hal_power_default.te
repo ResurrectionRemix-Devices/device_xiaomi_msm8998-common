@@ -8,6 +8,7 @@ allow hal_power_default sysfs_kgsl:dir search;
 allow hal_power_default sysfs_kgsl:lnk_file r_file_perms;
 allow hal_power_default sysfs_kgsl:file w_file_perms;
 allow hal_power_default sysfs_devices_system_cpu:file w_file_perms;
+allow hal_power_default sysfs_sectouch:dir search;
 allow hal_power_default device_latency:chr_file w_file_perms;
 
 r_dir_file(hal_power_default, debugfs_wlan)
